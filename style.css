@@ -1,0 +1,19 @@
+.my-special-element {
+    background-color: #ffcc00;
+    color: #333;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: rotate(45deg);
+    /* 自定义样式规则示例 */
+img[src*="googlelogo"] {
+    transform: scale(0.25);}
+  }
+  
+  .my-special-element:hover {
+    background-color: #ff9900;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  

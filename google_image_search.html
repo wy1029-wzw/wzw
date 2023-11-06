@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <img src="C:\Users\86198\Desktop\R-C.jfif">
+    <title>谷歌图片搜索</title>
+    <style>
+        /* 样式与Google类似 */
+        body {
+            text-align: center;
+        }
+        .search-bar {
+            margin: 20px auto;
+        }
+        .search-bar input[type="text"] {
+            border-radius: 10px;
+            padding: 5px;
+            width: 300px;
+        }
+        .search-bar input[type="submit"] {
+            margin-top: 10px;
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get" class="search-bar">
+        <input type="text" name="q" placeholder="输入查询" />
+        <br />
+        <input type="hidden" name="tbm" value="isch" />
+        <input type="submit" value="谷歌图片搜索" />
+    </form>
+    <a href="index.html">返回谷歌搜索</a>
+</body>
+</html>

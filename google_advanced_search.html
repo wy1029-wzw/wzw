@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <img src="C:\Users\86198\Desktop\R-C.jfif">
+    <title>谷歌高级搜索</title>
+    <style>
+        /* 样式与Google类似 */
+        body {
+            text-align: center;
+        }
+        .search-bar {
+            margin: 20px auto;
+            text-align: left;
+            width: 500px;
+        }
+        .search-bar input[type="text"], .search-bar input[type="submit"] {
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        .search-bar input[type="submit"] {
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get" class="search-bar">
+        <label for="exact-phrase-input">查找页面..所有这些话:</label>
+        <input type="text" name="as_q" id="exact-phrase-input" />
+        
+        <label for="any-words-input">查找带有..的页面这些词中的任何一个:</label>
+        <input type="text" name="as_oq" id="any-words-input" />
+        
+        <label for="none-words-input">使用...查找页面这些话都没有:</label>
+        <input type="text" name="as_eq" id="none-words-input" />
+        
+        <label for="language-select">搜索语言:</label>
+        <select name="lr" id="language-select">
+            <option value="lang_en">英语</option>
+            <option value="lang_zh-CN">简体中文</option>
+            <option value="lang_zh-TW">繁体中文</option>
+        </select>
+        
+        <input type="submit" value="高级搜索" />
+    </form>
+    <a href="index.html">返回谷歌搜索</a>
+</body>
+</html>
